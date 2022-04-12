@@ -10,11 +10,16 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "^5.0"
     },
     "autoload": {
         "psr-4": {
             "Enfil\\Sharding\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
         }
     }
 }
